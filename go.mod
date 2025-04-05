@@ -1,6 +1,6 @@
 module github.com/OzBank/oz-echo-core
 
-go 1.23.4
+go 1.24.2
 
 tool golang.org/x/tools/cmd/stringer
 
