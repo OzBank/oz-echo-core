@@ -1,12 +1,12 @@
 package echo
 
-type Service struct {
+type EchoService struct {
 }
 
-func NewService() *Service {
-	return &Service{}
+func NewEchoService() *EchoService {
+	return &EchoService{}
 }
 
-func (s *Service) Echo(input string) string {
+func (s *EchoService) Echo(input string) string {
 	return input
 }

@@ -7,7 +7,7 @@ import (
 )
 
 func TestEchoService(t *testing.T) {
-	svc := echo.NewService()
+	svc := echo.NewEchoService()
 
 	phrase := "Hello, World!"
 	response := svc.Echo(phrase)
