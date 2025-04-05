@@ -1,2 +1,2 @@
-# oz-echo-core
-Core do departamento echo
+# Echo Core
+Core do departamento echo.
